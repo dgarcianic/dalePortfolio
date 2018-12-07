@@ -12,13 +12,7 @@ p {
     color: gray;
 }
 
-/* .single-featured-image-header img {
-    display: none;
-} */
-
-/* .widget-title{
-    display: none;
-} */
+/* Centers Navigation and Removes Arrow */
 
 ul#top-menu.menu {
     text-align: center;
@@ -27,6 +21,19 @@ ul#top-menu.menu {
 svg.icon.icon-arrow-right {
     display: none;
 }
+
+/* Home Page Css */
+
+.page-id-33 h2.entry-title{
+    display: none;
+}
+/* .single-featured-image-header img {
+    display: none;
+} */
+
+/* .widget-title{
+    display: none;
+} */
 
 /* header .entry-header{
     text-align: center;

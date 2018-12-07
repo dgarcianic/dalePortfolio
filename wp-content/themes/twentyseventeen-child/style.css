@@ -16,9 +16,9 @@ p {
     display: none;
 }
 
-.widget-title{
+/* .widget-title{
     display: none;
-}
+} */
 
 ul#top-menu.menu {
     text-align: center;
@@ -32,10 +32,10 @@ svg.icon.icon-arrow-right {
     text-align: center;
 } */
 
-.has-sidebar:not(.error404) #primary{
+/* .has-sidebar:not(.error404) #primary{
     width: 100%;
 }
 
 .single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary{
-    max-width: 100%;
-}
+    max-width: 80%;
+} */

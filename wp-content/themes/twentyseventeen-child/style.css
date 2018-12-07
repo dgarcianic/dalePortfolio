@@ -9,12 +9,12 @@ Version: 0.1.0
 */
 
 p {
-    color: red;
+    color: gray;
 }
 
-.single-featured-image-header img {
+/* .single-featured-image-header img {
     display: none;
-}
+} */
 
 /* .widget-title{
     display: none;

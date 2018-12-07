@@ -12,6 +12,30 @@ p {
     color: red;
 }
 
-div.entry-content {
+.single-featured-image-header img {
+    display: none;
+}
+
+.widget-title{
+    display: none;
+}
+
+ul#top-menu.menu {
+    text-align: center;
+}
+
+svg.icon.icon-arrow-right {
+    display: none;
+}
+
+/* header .entry-header{
+    text-align: center;
+} */
+
+.has-sidebar:not(.error404) #primary{
     width: 100%;
+}
+
+.single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary{
+    max-width: 100%;
 }

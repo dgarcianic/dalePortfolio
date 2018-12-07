@@ -11,3 +11,7 @@ Version: 0.1.0
 p {
     color: red;
 }
+
+div.entry-content {
+    width: 100%;
+}

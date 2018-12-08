@@ -11,11 +11,11 @@ Version: 0.1.0
 p {
     color: gray;
     font-family: 'baskerville';
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: .3px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
     font-family: 'Avenir';
     letter-spacing: .3px;
 }
@@ -26,7 +26,9 @@ h1 {
     letter-spacing: 3px;
 }
 
-
+.entry-content li {
+    font-family: 'baskerville';
+}
 
 /* Centers Navigation and Removes Arrow */
 
@@ -41,6 +43,22 @@ ul#top-menu.menu {
 
 svg.icon.icon-arrow-right {
     display: none;
+}
+
+/* Adjusts header entry-title margin */
+
+.page.page-one-column .entry-header, .twentyseventeen-front-page.page-one-column .entry-header, .archive.page-one-column:not(.has-sidebar) .page-header {
+    margin-bottom: 0px;
+}
+
+/* Label */
+
+label {
+    font-family: 'baskerville';
+    font-size: 16px;
+    letter-spacing: .3px;
+    color: gray;
+    font-weight: 200;
 }
 
 /* Home Page Css */

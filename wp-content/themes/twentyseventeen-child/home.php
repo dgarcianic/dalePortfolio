@@ -58,7 +58,7 @@ get_header(); ?>
 
 			endif;
 			?>
-			<?php echo do_shortcode("[post_grid id='91']"); ?>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	<?php //get_sidebar(); ?>

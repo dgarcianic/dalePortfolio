@@ -61,6 +61,30 @@ label {
     font-weight: 200;
 }
 
+/* Recent Posts Grid */
+
+.recent-posts {
+    width: 150%;
+    margin-right: 150px;
+    float: left;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.grid-items.masonry {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 165px;
+    display: flex;
+}
+
+.post-grid .pagination {
+    display: none;
+}
+
 
 /* Modified Categories Function */
 
@@ -84,6 +108,24 @@ label {
     display: none;
 }
 
+/* Posts Page - Makes posts wider */
+
+.has-sidebar:not(.error404) #primary{
+    width: 100%;
+}
+
+.single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary{
+    max-width: 80%;
+}
+
+/* Footer */
+
+.site-info p {
+    font-family: 'Avenir';
+    font-size: 13px;
+    letter-spacing: .3px;
+}
+
 /* .single-featured-image-header img {
     display: none;
 } */
@@ -95,13 +137,3 @@ label {
 /* header .entry-header{
     text-align: center;
 } */
-
-/* Posts Page - Makes posts wider */
-
-.has-sidebar:not(.error404) #primary{
-    width: 100%;
-}
-
-.single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary{
-    max-width: 80%;
-}

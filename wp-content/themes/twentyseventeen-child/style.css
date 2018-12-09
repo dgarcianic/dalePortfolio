@@ -51,7 +51,7 @@ svg.icon.icon-arrow-right {
     margin-bottom: 0px;
 }
 
-/* Label */
+/* Form */
 
 label {
     font-family: 'baskerville';
@@ -63,9 +63,18 @@ label {
 
 /* Home Page Css */
 
-.page-id-33 h2.entry-title{
+.page-id-33 h2.entry-title {
     display: none;
 }
+
+.page-id-33 a.more-link {
+    display: none;
+}
+
+.page-id-33 time.entry-date.published {
+    display: none;
+}
+
 /* .single-featured-image-header img {
     display: none;
 } */

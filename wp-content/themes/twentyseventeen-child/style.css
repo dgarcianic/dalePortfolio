@@ -61,7 +61,16 @@ label {
     font-weight: 200;
 }
 
-/* Home Page Css */
+
+/* Modified Categories Function */
+
+.cat-tags-links a {
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+/* Home Page ONLY CSS */
 
 .page-id-33 h2.entry-title {
     display: none;
@@ -87,10 +96,12 @@ label {
     text-align: center;
 } */
 
-/* .has-sidebar:not(.error404) #primary{
+/* Posts Page - Makes posts wider */
+
+.has-sidebar:not(.error404) #primary{
     width: 100%;
 }
 
 .single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary{
     max-width: 80%;
-} */
+}

@@ -19,7 +19,7 @@
 	endif;
 	?>
 	<header class="entry-header">
-		<?php
+		<center><?php
 		// if ( 'post' === get_post_type() ) {
 		// 	echo '<div class="entry-meta">';
 		// 		if ( is_single() ) {
@@ -38,7 +38,9 @@
 		} else {
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		}
-		?>
+		categories_post();
+		?></center>
+		<div class="negative-space"><br><br><br><div>
 	</header><!-- .entry-header -->
 
 	<?php if ( '' !== get_the_post_thumbnail() && ! is_single() ) : ?>
@@ -67,9 +69,9 @@
 	</div><!-- .entry-content -->
 
 	<?php
-	if ( is_single() ) {
-		twentyseventeen_entry_footer();
-	}
+	// if ( is_single() ) {
+	// 	twentyseventeen_entry_footer();
+	// }
 	?>
 
 </article><!-- #post-## -->

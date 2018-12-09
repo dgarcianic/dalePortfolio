@@ -10,7 +10,7 @@
  * @version 1.0
  */
 
-get_header(); ?>
+get_header('archive'); ?>
 
 <div class="wrap">
 

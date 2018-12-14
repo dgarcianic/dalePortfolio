@@ -9,8 +9,8 @@ Version: 0.1.0
 */
 
 p {
-    color: gray;
-    font-family: 'baskerville';
+    color: #355e3b;
+    font-family: 'georgia';
     font-size: 18px;
     letter-spacing: .3px;
 }
@@ -18,16 +18,18 @@ p {
 h1, h2, h3, h4, h5, h6, label {
     font-family: 'Avenir';
     letter-spacing: .3px;
+    color: #909090;
 }
 
 h1 {
     font-size: 33.5px;
     font-weight: bold;
     letter-spacing: 3px;
+    color:#909090;
 }
 
 .entry-content li {
-    font-family: 'baskerville';
+    font-family: 'georgia';
 }
 
 /* Centers Navigation and Removes Arrow */
@@ -54,7 +56,7 @@ svg.icon.icon-arrow-right {
 /* Form */
 
 label {
-    font-family: 'baskerville';
+    font-family: 'georgia';
     font-size: 16px;
     letter-spacing: .3px;
     color: gray;
@@ -63,7 +65,19 @@ label {
 
 /* Recent Posts Grid */
 
-.recent-posts {
+ .layer-media {
+    padding: 50px;
+} 
+
+.item.mix.skin.even.flat.logo-design.masonry-brick {
+    border: 3px solid #e8e8e8;
+}
+
+.item.mix.skin.odd.flat.brand-development.masonry-brick {
+    border: 3px solid #e8e8e8;
+}
+
+ /* .recent-posts {
     width: 150%;
     margin-right: 150px;
     float: left;
@@ -79,16 +93,16 @@ label {
     bottom: 0;
     right: 165px;
     display: flex;
-}
+} */
 
 .post-grid .pagination {
     display: none;
 }
 
 
-.panel1 .panel-content .wrap {
+/* .panel1 .panel-content .wrap {
     width: 150%;
-}
+}  */
 
 /* Modified Categories Function */
 
@@ -113,6 +127,14 @@ label {
 }
 
 #panel2 .panel-image {
+    max-height: 400px;
+}
+
+#panel1 .panel-image {
+    max-height: 400px;
+}
+
+#panel3 .panel-image {
     max-height: 400px;
 }
 
